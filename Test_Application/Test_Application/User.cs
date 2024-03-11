@@ -11,13 +11,15 @@ namespace Test_Application
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public int Age { get; set; }
+        public string Address { get; set; }
 
 
-        public User(string firstName, string lastName, int age)
+        public User(string firstName, string lastName, int age, string address)
         {
             FirstName = firstName;
             LastName = lastName;
             Age = age;
+            Address = address;
         }
 
         public void PrintInfo()
