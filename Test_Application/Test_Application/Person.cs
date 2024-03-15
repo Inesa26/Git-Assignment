@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace Test_Application
 {
-    internal class User
+    internal class Person
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public int Age { get; set; }
 
 
-        public User(string firstName, string lastName, int age)
+        public Person(string firstName, string lastName, int age)
         {
             FirstName = firstName;
             LastName = lastName;
@@ -24,6 +24,5 @@ namespace Test_Application
         {
             Console.WriteLine($"Name: {FirstName} {LastName}, Age: {Age}, changed version");
         }
-
     }
 }
