@@ -22,7 +22,7 @@ namespace Test_Application
 
         public void PrintInfo()
         {
-            Console.WriteLine($"Name: {FirstName} {LastName}, Age: {Age}");
+            Console.WriteLine($"Name: {FirstName} {LastName}, Age: {Age}, changed version");
         }
 
     }
